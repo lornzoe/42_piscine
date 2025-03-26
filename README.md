@@ -2,7 +2,7 @@ piscine
 
 this repo is intended to be for reference only.
 
-code is not perfect; it's recommeneded to understand what i'm doing rather than blindly copying
+code is not perfect, but can serve as a perspective on what was done
 
 shell 00: ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: OK | ex05: OK | ex06: OK | ex07: OK | ex08: OK | ex09: OK
 
