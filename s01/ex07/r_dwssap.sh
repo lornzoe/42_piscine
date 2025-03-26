@@ -1,0 +1,1 @@
+cat /etc/passwd | cut -d ':' -f 5 --complement | awk 'NR%2==0 || NR<2' | rev | awk -F: '{print $6}' | sort -r  | sed -n "${FT_LINE1}, ${FT_LINE2}p" | sed ':x;N;s/\n/, /;bx' | sed 's/$/./g' | tr -d '\n'
